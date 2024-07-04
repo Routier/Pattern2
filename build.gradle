@@ -21,7 +21,7 @@ dependencies {
     // библиотека com.codeborne:selenide используется при построении проекта с использованием Selenide
     testImplementation 'com.codeborne:selenide:6.17.2'
     //Faker
-    implementation 'com.github.javafaker:javafaker:1.0.2'
+    testImplementation 'com.github.javafaker:javafaker:1.0.2'
     //Lombok
     //testCompileOnly 'org.projectlombok:lombok:1.18.24'
     // testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
